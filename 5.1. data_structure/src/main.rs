@@ -22,7 +22,7 @@ fn main() {
         email: String::from("another@example.com"),
         ..user1
     };
-    
+
     let user_email = user2.email;
     println!("{user_email}");
 
